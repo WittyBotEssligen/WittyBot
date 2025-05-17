@@ -2,7 +2,7 @@ streamlit
 langchain
 langchain-community
 langchain-core
-langchain-chroma @ git+https://github.com/langchain-ai/langchain.git@v0.1.13#subdirectory=libs/langchain-chroma
+langchain-chroma
 langchain-ollama
 chromadb
 python-dotenv
