@@ -4,6 +4,8 @@ langchain-community
 langchain-core
 langchain-chroma
 langchain-ollama
+chromadb
+python-dotenv
 numpy
 pandas
-python-dotenv
+pypdf
