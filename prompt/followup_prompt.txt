@@ -1,0 +1,66 @@
+Du bekommst eine neue Nutzerfrage und den vorherigen Gesprächskontext.
+Entscheide, ob sich die neue Frage auf den vorherigen Kontext bezieht (= Folgefrage).
+
+<Kontext vorher>
+{{ previous_context }}
+</Kontext vorher>
+
+<Neue Frage>
+{{ question }}
+</Neue Frage>
+
+Antworte nur mit JA oder NEIN.
+
+Beispiele:
+
+Kontext vorher:
+Frage: Wie viele ECTS hat das Praktikum?
+Antwort: Das Praktikum umfasst 25 ECTS.
+
+Neue Frage: Und wie lange dauert es?
+→ JA
+
+Neue Frage: Was sind die Inhalte?
+→ JA
+
+Neue Frage: Muss man es anmelden?
+→ JA
+
+Kontext vorher:
+Frage: Wie viele ECTS hat Mathematik 1?
+Antwort: Mathematik 1 hat 5 ECTS.
+
+Neue Frage: Und Mathe 2?
+→ JA
+
+Neue Frage: Was ist mit Mathe 2?
+→ JA
+
+Neue Frage: Gibt es dazu ein Tutorium?
+→ JA
+
+Kontext vorher:
+Frage: Wo liegt die Hochschule?
+Antwort: In Esslingen.
+
+Neue Frage: Wie viele ECTS hat Mathe 1?
+→ NEIN
+
+Neue Frage: Gibt es einen Mathevorkurs?
+→ NEIN
+
+Neue Frage: Wie ist die Mensa?
+→ NEIN
+
+Neue Frage: Welche Bibliotheken gibt es?
+→ NEIN
+
+Kontext vorher:
+Frage: Muss ich mich für das Praxissemester anmelden?
+Antwort: Ja, spätestens bis zum 15. Mai.
+
+Neue Frage: Wie viele ECTS hat Mathe 2?
+→ NEIN
+
+Neue Frage: Gibt es Wahlfächer im dritten Semester?
+→ NEIN

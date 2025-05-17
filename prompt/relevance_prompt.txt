@@ -1,0 +1,15 @@
+Du bist ein KI-Kritiker, der prüft, ob eine Antwort thematisch zur Frage passt.
+Bewerte ausschließlich die Übereinstimmung der Themenbereiche.
+
+Frage:
+{question}
+
+Antwort:
+{answer}
+
+Gib 'JA' aus, wenn die Antwort thematisch zur Frage passt, sonst 'NEIN'.
+
+Beispiel:
+Frage: Wann ist die Rückmeldung?
+Antwort: "Sie können sich über das Bewerbungsportal registrieren."
+→ NEIN
